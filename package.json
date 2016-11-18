@@ -1,0 +1,30 @@
+{
+  "name": "amalgamatejs",
+  "version": "0.0.1",
+  "description": "A framework that helps simplify bot creation across multiple platforms.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "nodemon lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericluii/AmalgamateJS.git"
+  },
+  "keywords": [
+    "amalgamate",
+    "bot",
+    "bots",
+    "facebook",
+    "discord",
+    "kik"
+  ],
+  "author": "Eric Lui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericluii/AmalgamateJS/issues"
+  },
+  "homepage": "https://github.com/ericluii/AmalgamateJS#readme",
+  "dependencies": {
+    "winston": "2.3.0"
+  }
+}

@@ -4,7 +4,8 @@
   "description": "A framework that helps simplify bot creation across multiple platforms.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "nodemon example/example.js"
+    "test": "nodemon example/example.js",
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,15 @@
   "homepage": "https://github.com/ericluii/AmalgamateJS#readme",
   "dependencies": {
     "winston": "2.3.0"
-  }
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.4",
+    "nodemon": "^1.11.0",
+    "precommit-hook": "^3.0.0"
+  },
+  "pre-commit": [
+    "gulp"
+  ]
 }

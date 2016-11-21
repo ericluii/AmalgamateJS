@@ -4,7 +4,7 @@
   "description": "A framework that helps simplify bot creation across multiple platforms.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "nodemon lib/index.js"
+    "test": "nodemon example/example.js"
   },
   "repository": {
     "type": "git",

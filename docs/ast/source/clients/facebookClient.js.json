@@ -1,0 +1,1281 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "logger",
+            "range": [
+              4,
+              10
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 4
+              },
+              "end": {
+                "line": 1,
+                "column": 10
+              }
+            }
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "require",
+              "range": [
+                13,
+                20
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 13
+                },
+                "end": {
+                  "line": 1,
+                  "column": 20
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "../logger",
+                "raw": "'../logger'",
+                "range": [
+                  21,
+                  32
+                ],
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 21
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 32
+                  }
+                }
+              }
+            ],
+            "range": [
+              13,
+              33
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 13
+              },
+              "end": {
+                "line": 1,
+                "column": 33
+              }
+            }
+          },
+          "range": [
+            4,
+            33
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 4
+            },
+            "end": {
+              "line": 1,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        0,
+        34
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "FacebookClient",
+        "range": [
+          45,
+          59
+        ],
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 9
+          },
+          "end": {
+            "line": 3,
+            "column": 23
+          }
+        }
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "name": "properties",
+          "range": [
+            60,
+            70
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 34
+            }
+          }
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "range": [
+          72,
+          193
+        ],
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 36
+          },
+          "end": {
+            "line": 10,
+            "column": 1
+          }
+        },
+        "trailingComments": [
+          {
+            "type": "Line",
+            "value": " Validate for",
+            "range": [
+              76,
+              91
+            ],
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 2
+              },
+              "end": {
+                "line": 4,
+                "column": 17
+              }
+            }
+          },
+          {
+            "type": "Line",
+            "value": "  - APP SECRET",
+            "range": [
+              94,
+              110
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 2
+              },
+              "end": {
+                "line": 5,
+                "column": 18
+              }
+            }
+          },
+          {
+            "type": "Line",
+            "value": "  - VALIDATION TOKEN",
+            "range": [
+              113,
+              135
+            ],
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 2
+              },
+              "end": {
+                "line": 6,
+                "column": 24
+              }
+            }
+          },
+          {
+            "type": "Line",
+            "value": "  - PAGE ACCESS TOKEN",
+            "range": [
+              138,
+              161
+            ],
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 2
+              },
+              "end": {
+                "line": 7,
+                "column": 25
+              }
+            }
+          },
+          {
+            "type": "Line",
+            "value": "  - ENDPOINT",
+            "range": [
+              164,
+              178
+            ],
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 2
+              },
+              "end": {
+                "line": 8,
+                "column": 16
+              }
+            }
+          },
+          {
+            "type": "Line",
+            "value": "  - PORT",
+            "range": [
+              181,
+              191
+            ],
+            "loc": {
+              "start": {
+                "line": 9,
+                "column": 2
+              },
+              "end": {
+                "line": 9,
+                "column": 12
+              }
+            }
+          }
+        ]
+      },
+      "generator": false,
+      "expression": false,
+      "range": [
+        36,
+        193
+      ],
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 1
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "FacebookClient",
+              "range": [
+                195,
+                209
+              ],
+              "loc": {
+                "start": {
+                  "line": 12,
+                  "column": 0
+                },
+                "end": {
+                  "line": 12,
+                  "column": 14
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "prototype",
+              "range": [
+                210,
+                219
+              ],
+              "loc": {
+                "start": {
+                  "line": 12,
+                  "column": 15
+                },
+                "end": {
+                  "line": 12,
+                  "column": 24
+                }
+              }
+            },
+            "range": [
+              195,
+              219
+            ],
+            "loc": {
+              "start": {
+                "line": 12,
+                "column": 0
+              },
+              "end": {
+                "line": 12,
+                "column": 24
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "getName",
+            "range": [
+              220,
+              227
+            ],
+            "loc": {
+              "start": {
+                "line": 12,
+                "column": 25
+              },
+              "end": {
+                "line": 12,
+                "column": 32
+              }
+            }
+          },
+          "range": [
+            195,
+            227
+          ],
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 0
+            },
+            "end": {
+              "line": 12,
+              "column": 32
+            }
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "id": {
+            "type": "Identifier",
+            "name": "getName",
+            "range": [
+              220,
+              227
+            ],
+            "loc": {
+              "start": {
+                "line": 12,
+                "column": 25
+              },
+              "end": {
+                "line": 12,
+                "column": 32
+              }
+            }
+          },
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "argument": {
+                  "type": "BinaryExpression",
+                  "operator": "+",
+                  "left": {
+                    "type": "Literal",
+                    "value": "Facebook:",
+                    "raw": "'Facebook:'",
+                    "range": [
+                      252,
+                      263
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 13,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 20
+                      }
+                    }
+                  },
+                  "right": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "ThisExpression",
+                      "range": [
+                        266,
+                        270
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 13,
+                          "column": 23
+                        },
+                        "end": {
+                          "line": 13,
+                          "column": 27
+                        }
+                      }
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "port",
+                      "range": [
+                        271,
+                        275
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 13,
+                          "column": 28
+                        },
+                        "end": {
+                          "line": 13,
+                          "column": 32
+                        }
+                      }
+                    },
+                    "range": [
+                      266,
+                      275
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 13,
+                        "column": 23
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 32
+                      }
+                    }
+                  },
+                  "range": [
+                    252,
+                    275
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 13,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 13,
+                      "column": 32
+                    }
+                  }
+                },
+                "range": [
+                  245,
+                  276
+                ],
+                "loc": {
+                  "start": {
+                    "line": 13,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 13,
+                    "column": 33
+                  }
+                }
+              }
+            ],
+            "range": [
+              241,
+              278
+            ],
+            "loc": {
+              "start": {
+                "line": 12,
+                "column": 46
+              },
+              "end": {
+                "line": 14,
+                "column": 1
+              }
+            }
+          },
+          "generator": false,
+          "expression": false,
+          "range": [
+            230,
+            278
+          ],
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 35
+            },
+            "end": {
+              "line": 14,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          195,
+          278
+        ],
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 0
+          },
+          "end": {
+            "line": 14,
+            "column": 1
+          }
+        }
+      },
+      "range": [
+        195,
+        279
+      ],
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 2
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": " Validate for",
+          "range": [
+            76,
+            91
+          ],
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 2
+            },
+            "end": {
+              "line": 4,
+              "column": 17
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "  - APP SECRET",
+          "range": [
+            94,
+            110
+          ],
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2
+            },
+            "end": {
+              "line": 5,
+              "column": 18
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "  - VALIDATION TOKEN",
+          "range": [
+            113,
+            135
+          ],
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 2
+            },
+            "end": {
+              "line": 6,
+              "column": 24
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "  - PAGE ACCESS TOKEN",
+          "range": [
+            138,
+            161
+          ],
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 2
+            },
+            "end": {
+              "line": 7,
+              "column": 25
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "  - ENDPOINT",
+          "range": [
+            164,
+            178
+          ],
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 2
+            },
+            "end": {
+              "line": 8,
+              "column": 16
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "  - PORT",
+          "range": [
+            181,
+            191
+          ],
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 2
+            },
+            "end": {
+              "line": 9,
+              "column": 12
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "FacebookClient",
+              "range": [
+                281,
+                295
+              ],
+              "loc": {
+                "start": {
+                  "line": 16,
+                  "column": 0
+                },
+                "end": {
+                  "line": 16,
+                  "column": 14
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "prototype",
+              "range": [
+                296,
+                305
+              ],
+              "loc": {
+                "start": {
+                  "line": 16,
+                  "column": 15
+                },
+                "end": {
+                  "line": 16,
+                  "column": 24
+                }
+              }
+            },
+            "range": [
+              281,
+              305
+            ],
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 0
+              },
+              "end": {
+                "line": 16,
+                "column": 24
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "connect",
+            "range": [
+              306,
+              313
+            ],
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 25
+              },
+              "end": {
+                "line": 16,
+                "column": 32
+              }
+            }
+          },
+          "range": [
+            281,
+            313
+          ],
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 0
+            },
+            "end": {
+              "line": 16,
+              "column": 32
+            }
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "id": {
+            "type": "Identifier",
+            "name": "connect",
+            "range": [
+              306,
+              313
+            ],
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 25
+              },
+              "end": {
+                "line": 16,
+                "column": 32
+              }
+            }
+          },
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "expression": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Identifier",
+                      "name": "logger",
+                      "range": [
+                        331,
+                        337
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 17,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 17,
+                          "column": 8
+                        }
+                      }
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "debug",
+                      "range": [
+                        338,
+                        343
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 17,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 17,
+                          "column": 14
+                        }
+                      }
+                    },
+                    "range": [
+                      331,
+                      343
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 17,
+                        "column": 2
+                      },
+                      "end": {
+                        "line": 17,
+                        "column": 14
+                      }
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "Attempting to connect Facebook Client...",
+                      "raw": "'Attempting to connect Facebook Client...'",
+                      "range": [
+                        344,
+                        386
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 17,
+                          "column": 15
+                        },
+                        "end": {
+                          "line": 17,
+                          "column": 57
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    331,
+                    387
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 17,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 17,
+                      "column": 58
+                    }
+                  }
+                },
+                "range": [
+                  331,
+                  388
+                ],
+                "loc": {
+                  "start": {
+                    "line": 17,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 17,
+                    "column": 59
+                  }
+                },
+                "trailingComments": [
+                  {
+                    "type": "Line",
+                    "value": " Do stuff",
+                    "range": [
+                      392,
+                      403
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 19,
+                        "column": 2
+                      },
+                      "end": {
+                        "line": 19,
+                        "column": 13
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "range": [
+              327,
+              405
+            ],
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 46
+              },
+              "end": {
+                "line": 20,
+                "column": 1
+              }
+            }
+          },
+          "generator": false,
+          "expression": false,
+          "range": [
+            316,
+            405
+          ],
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 35
+            },
+            "end": {
+              "line": 20,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          281,
+          405
+        ],
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 0
+          },
+          "end": {
+            "line": 20,
+            "column": 1
+          }
+        }
+      },
+      "range": [
+        281,
+        406
+      ],
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "module",
+            "range": [
+              408,
+              414
+            ],
+            "loc": {
+              "start": {
+                "line": 22,
+                "column": 0
+              },
+              "end": {
+                "line": 22,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "exports",
+            "range": [
+              415,
+              422
+            ],
+            "loc": {
+              "start": {
+                "line": 22,
+                "column": 7
+              },
+              "end": {
+                "line": 22,
+                "column": 14
+              }
+            }
+          },
+          "range": [
+            408,
+            422
+          ],
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 0
+            },
+            "end": {
+              "line": 22,
+              "column": 14
+            }
+          }
+        },
+        "right": {
+          "type": "Identifier",
+          "name": "FacebookClient",
+          "range": [
+            425,
+            439
+          ],
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 17
+            },
+            "end": {
+              "line": 22,
+              "column": 31
+            }
+          }
+        },
+        "range": [
+          408,
+          439
+        ],
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 0
+          },
+          "end": {
+            "line": 22,
+            "column": 31
+          }
+        }
+      },
+      "range": [
+        408,
+        440
+      ],
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 0
+        },
+        "end": {
+          "line": 22,
+          "column": 32
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": " Do stuff",
+          "range": [
+            392,
+            403
+          ],
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 2
+            },
+            "end": {
+              "line": 19,
+              "column": 13
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    0,
+    440
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 22,
+      "column": 32
+    }
+  },
+  "comments": [
+    {
+      "type": "Line",
+      "value": " Validate for",
+      "range": [
+        76,
+        91
+      ],
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 4,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "  - APP SECRET",
+      "range": [
+        94,
+        110
+      ],
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 5,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "  - VALIDATION TOKEN",
+      "range": [
+        113,
+        135
+      ],
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 6,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "  - PAGE ACCESS TOKEN",
+      "range": [
+        138,
+        161
+      ],
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 7,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "  - ENDPOINT",
+      "range": [
+        164,
+        178
+      ],
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 8,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "  - PORT",
+      "range": [
+        181,
+        191
+      ],
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " Do stuff",
+      "range": [
+        392,
+        403
+      ],
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 2
+        },
+        "end": {
+          "line": 19,
+          "column": 13
+        }
+      }
+    }
+  ]
+}

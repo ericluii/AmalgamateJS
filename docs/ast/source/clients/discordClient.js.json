@@ -1,0 +1,1011 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "logger",
+            "range": [
+              4,
+              10
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 4
+              },
+              "end": {
+                "line": 1,
+                "column": 10
+              }
+            }
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "require",
+              "range": [
+                13,
+                20
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 13
+                },
+                "end": {
+                  "line": 1,
+                  "column": 20
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "../logger",
+                "raw": "'../logger'",
+                "range": [
+                  21,
+                  32
+                ],
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 21
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 32
+                  }
+                }
+              }
+            ],
+            "range": [
+              13,
+              33
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 13
+              },
+              "end": {
+                "line": 1,
+                "column": 33
+              }
+            }
+          },
+          "range": [
+            4,
+            33
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 4
+            },
+            "end": {
+              "line": 1,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        0,
+        34
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "DiscordClient",
+        "range": [
+          45,
+          58
+        ],
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 9
+          },
+          "end": {
+            "line": 3,
+            "column": 22
+          }
+        }
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "name": "properties",
+          "range": [
+            59,
+            69
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 23
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "body": [],
+        "range": [
+          71,
+          95
+        ],
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 35
+          },
+          "end": {
+            "line": 5,
+            "column": 1
+          }
+        },
+        "trailingComments": [
+          {
+            "type": "Line",
+            "value": " Validate for...",
+            "range": [
+              75,
+              93
+            ],
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 2
+              },
+              "end": {
+                "line": 4,
+                "column": 20
+              }
+            }
+          }
+        ]
+      },
+      "generator": false,
+      "expression": false,
+      "range": [
+        36,
+        95
+      ],
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 1
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "DiscordClient",
+              "range": [
+                97,
+                110
+              ],
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 0
+                },
+                "end": {
+                  "line": 7,
+                  "column": 13
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "prototype",
+              "range": [
+                111,
+                120
+              ],
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 14
+                },
+                "end": {
+                  "line": 7,
+                  "column": 23
+                }
+              }
+            },
+            "range": [
+              97,
+              120
+            ],
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0
+              },
+              "end": {
+                "line": 7,
+                "column": 23
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "getName",
+            "range": [
+              121,
+              128
+            ],
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 24
+              },
+              "end": {
+                "line": 7,
+                "column": 31
+              }
+            }
+          },
+          "range": [
+            97,
+            128
+          ],
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 0
+            },
+            "end": {
+              "line": 7,
+              "column": 31
+            }
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "id": {
+            "type": "Identifier",
+            "name": "getName",
+            "range": [
+              121,
+              128
+            ],
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 24
+              },
+              "end": {
+                "line": 7,
+                "column": 31
+              }
+            }
+          },
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "argument": {
+                  "type": "BinaryExpression",
+                  "operator": "+",
+                  "left": {
+                    "type": "Literal",
+                    "value": "Discord:",
+                    "raw": "'Discord:'",
+                    "range": [
+                      153,
+                      163
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 8,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 8,
+                        "column": 19
+                      }
+                    }
+                  },
+                  "right": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "ThisExpression",
+                      "range": [
+                        166,
+                        170
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 8,
+                          "column": 22
+                        },
+                        "end": {
+                          "line": 8,
+                          "column": 26
+                        }
+                      }
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "port",
+                      "range": [
+                        171,
+                        175
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 8,
+                          "column": 27
+                        },
+                        "end": {
+                          "line": 8,
+                          "column": 31
+                        }
+                      }
+                    },
+                    "range": [
+                      166,
+                      175
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 8,
+                        "column": 22
+                      },
+                      "end": {
+                        "line": 8,
+                        "column": 31
+                      }
+                    }
+                  },
+                  "range": [
+                    153,
+                    175
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 8,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 8,
+                      "column": 31
+                    }
+                  }
+                },
+                "range": [
+                  146,
+                  176
+                ],
+                "loc": {
+                  "start": {
+                    "line": 8,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 8,
+                    "column": 32
+                  }
+                }
+              }
+            ],
+            "range": [
+              142,
+              178
+            ],
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 45
+              },
+              "end": {
+                "line": 9,
+                "column": 1
+              }
+            }
+          },
+          "generator": false,
+          "expression": false,
+          "range": [
+            131,
+            178
+          ],
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 34
+            },
+            "end": {
+              "line": 9,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          97,
+          178
+        ],
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 0
+          },
+          "end": {
+            "line": 9,
+            "column": 1
+          }
+        }
+      },
+      "range": [
+        97,
+        179
+      ],
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 2
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": " Validate for...",
+          "range": [
+            75,
+            93
+          ],
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 2
+            },
+            "end": {
+              "line": 4,
+              "column": 20
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "DiscordClient",
+              "range": [
+                181,
+                194
+              ],
+              "loc": {
+                "start": {
+                  "line": 11,
+                  "column": 0
+                },
+                "end": {
+                  "line": 11,
+                  "column": 13
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "prototype",
+              "range": [
+                195,
+                204
+              ],
+              "loc": {
+                "start": {
+                  "line": 11,
+                  "column": 14
+                },
+                "end": {
+                  "line": 11,
+                  "column": 23
+                }
+              }
+            },
+            "range": [
+              181,
+              204
+            ],
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 0
+              },
+              "end": {
+                "line": 11,
+                "column": 23
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "connect",
+            "range": [
+              205,
+              212
+            ],
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 24
+              },
+              "end": {
+                "line": 11,
+                "column": 31
+              }
+            }
+          },
+          "range": [
+            181,
+            212
+          ],
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 0
+            },
+            "end": {
+              "line": 11,
+              "column": 31
+            }
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "id": {
+            "type": "Identifier",
+            "name": "connect",
+            "range": [
+              205,
+              212
+            ],
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 24
+              },
+              "end": {
+                "line": 11,
+                "column": 31
+              }
+            }
+          },
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "expression": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Identifier",
+                      "name": "logger",
+                      "range": [
+                        230,
+                        236
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 12,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 12,
+                          "column": 8
+                        }
+                      }
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "debug",
+                      "range": [
+                        237,
+                        242
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 12,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 12,
+                          "column": 14
+                        }
+                      }
+                    },
+                    "range": [
+                      230,
+                      242
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 12,
+                        "column": 2
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 14
+                      }
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "Attempting to connect Discord Client...",
+                      "raw": "'Attempting to connect Discord Client...'",
+                      "range": [
+                        243,
+                        284
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 12,
+                          "column": 15
+                        },
+                        "end": {
+                          "line": 12,
+                          "column": 56
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    230,
+                    285
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 12,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 12,
+                      "column": 57
+                    }
+                  }
+                },
+                "range": [
+                  230,
+                  286
+                ],
+                "loc": {
+                  "start": {
+                    "line": 12,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 12,
+                    "column": 58
+                  }
+                },
+                "trailingComments": [
+                  {
+                    "type": "Line",
+                    "value": " Do stuff",
+                    "range": [
+                      290,
+                      301
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 14,
+                        "column": 2
+                      },
+                      "end": {
+                        "line": 14,
+                        "column": 13
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "range": [
+              226,
+              303
+            ],
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 45
+              },
+              "end": {
+                "line": 15,
+                "column": 1
+              }
+            }
+          },
+          "generator": false,
+          "expression": false,
+          "range": [
+            215,
+            303
+          ],
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 34
+            },
+            "end": {
+              "line": 15,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          181,
+          303
+        ],
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 0
+          },
+          "end": {
+            "line": 15,
+            "column": 1
+          }
+        }
+      },
+      "range": [
+        181,
+        304
+      ],
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "module",
+            "range": [
+              306,
+              312
+            ],
+            "loc": {
+              "start": {
+                "line": 17,
+                "column": 0
+              },
+              "end": {
+                "line": 17,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "exports",
+            "range": [
+              313,
+              320
+            ],
+            "loc": {
+              "start": {
+                "line": 17,
+                "column": 7
+              },
+              "end": {
+                "line": 17,
+                "column": 14
+              }
+            }
+          },
+          "range": [
+            306,
+            320
+          ],
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 0
+            },
+            "end": {
+              "line": 17,
+              "column": 14
+            }
+          }
+        },
+        "right": {
+          "type": "Identifier",
+          "name": "DiscordClient",
+          "range": [
+            323,
+            336
+          ],
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 17
+            },
+            "end": {
+              "line": 17,
+              "column": 30
+            }
+          }
+        },
+        "range": [
+          306,
+          336
+        ],
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 0
+          },
+          "end": {
+            "line": 17,
+            "column": 30
+          }
+        }
+      },
+      "range": [
+        306,
+        337
+      ],
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 31
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": " Do stuff",
+          "range": [
+            290,
+            301
+          ],
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 2
+            },
+            "end": {
+              "line": 14,
+              "column": 13
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    0,
+    337
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 17,
+      "column": 31
+    }
+  },
+  "comments": [
+    {
+      "type": "Line",
+      "value": " Validate for...",
+      "range": [
+        75,
+        93
+      ],
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 4,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " Do stuff",
+      "range": [
+        290,
+        301
+      ],
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 13
+        }
+      }
+    }
+  ]
+}

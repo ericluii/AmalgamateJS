@@ -5,7 +5,9 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "nodemon example/example.js",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "lint": "jshint .",
+    "validate": "npm ls"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,7 @@
     "gulp": "^3.9.1",
     "gulp-jshint": "^2.0.4",
     "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
     "nodemon": "^1.11.0",
     "precommit-hook": "^3.0.0"
   },

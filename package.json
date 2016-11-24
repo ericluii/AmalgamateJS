@@ -31,8 +31,10 @@
     "winston": "2.3.0"
   },
   "devDependencies": {
+    "docdash": "^0.4.0",
     "gulp": "^3.9.1",
     "gulp-jscs": "^4.0.0",
+    "gulp-jsdoc3": "^1.0.1",
     "gulp-jshint": "^2.0.4",
     "jshint": "^2.9.4",
     "jshint-stylish": "^2.2.1",

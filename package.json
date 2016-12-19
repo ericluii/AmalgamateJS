@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A framework that helps simplify bot creation across multiple platforms.",
   "main": "lib/index.js",
+  "engines": { "node" : ">=6.0.0" },
   "scripts": {
     "test": "nodemon example/example.js",
     "gulp": "gulp",
